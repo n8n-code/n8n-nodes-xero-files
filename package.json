@@ -1,7 +1,7 @@
 {
   "name": "@n8n-dev/n8n-nodes-xero-files",
-  "version": "1.0.0",
-  "description": "These endpoints are specific to Xero Files API",
+  "version": "1.0.1",
+  "description": "Xero Files API endpoints.",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-xero-files",
   "keywords": [
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "xero-files"

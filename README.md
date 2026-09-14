@@ -53,9 +53,27 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Files | Get retrieves an association object using a unique object id, Get retrieves files, Post uploads a file, Deletes a specific file, Get retrieves a file by a unique file id, Put update a file, Get retrieves a specific file associations, Post creates a new file association, Deletes an existing file association, Get retrieves the content of a specific file, Get retrieves folders, Post creates a new folder, Deletes a folder, Get retrieves specific folder by using a unique folder id, Put updates an existing folder, Get retrieves inbox folder |
+<details>
+<summary><b>Files</b> (16 operations)</summary>
+
+- Get Retrieves an association object using a unique object ID
+- Get Retrieves files
+- Post Uploads a File
+- Delete s a specific file
+- Get Retrieves a file by a unique file ID
+- Put Update a file
+- Get Retrieves a specific file associations
+- Post Creates a new file association
+- Delete s an existing file association
+- Get Retrieves the content of a specific file
+- Get Retrieves folders
+- Post Creates a new folder
+- Delete s a folder
+- Get Retrieves specific folder by using a unique folder ID
+- Put Updates an existing folder
+- Get Retrieves inbox folder
+
+</details>
 
 ---
 
@@ -84,13 +102,6 @@ When the xero-files API updates, this node updates too.
 
 ---
 
-## Support This Project
-
-If this node saved you hours of work, consider supporting continued development, new APIs, better error handling, and faster updates.
-
-[![Keep It Moving.](https://crypto-donate.insidexofficial.workers.dev/eyJ0aXRsZSI6IktlZXAgSXQgTW92aW5nIiwiZGVzYyI6Ik9uZSBkZXZlbG9wZXIgYnVpbHQgYSB0b29sIHRoYXQgYXV0by1nZW5lcmF0ZXNcbm44biBub2RlcyBmcm9tIGFueSBPcGVuQVBJIHNwZWMuXG5cbllvdXIgZG9uYXRpb24gZnVuZHMgbmV3IGZlYXR1cmVzLCBtb3JlIEFQSSBzdXBwb3J0LFxuYW5kIGJldHRlciB0b29saW5nIGZvciBldmVyeSBkZXZlbG9wZXIgYWZ0ZXIgeW91LiIsInRhcmdldCI6NTAwMCwiYWRkcmVzc2VzIjp7ImV0aGVyZXVtIjoiMHhmMDU1NWQ0MGRiRkI0ZTNCZjA3MDQ0MjgyQjc4RjJmRTFmNTFFZjcyIiwic29sYW5hIjoiNlpEVk5BYmpZZExEcXo4cGt3VUNHYllaNVV3QlFranB0QzU1Wk5vTFcybVUifSwiZGlzY29yZCI6Imh0dHBzOi8vZGlzY29yZC5nZy9wdERaOGU0aDkzIn0/badge)](https://n8n-code.github.io/membership/#/eyJ0aXRsZSI6IktlZXAgSXQgTW92aW5nIiwiZGVzYyI6Ik9uZSBkZXZlbG9wZXIgYnVpbHQgYSB0b29sIHRoYXQgYXV0by1nZW5lcmF0ZXNcbm44biBub2RlcyBmcm9tIGFueSBPcGVuQVBJIHNwZWMuXG5cbllvdXIgZG9uYXRpb24gZnVuZHMgbmV3IGZlYXR1cmVzLCBtb3JlIEFQSSBzdXBwb3J0LFxuYW5kIGJldHRlciB0b29saW5nIGZvciBldmVyeSBkZXZlbG9wZXIgYWZ0ZXIgeW91LiIsInRhcmdldCI6NTAwMCwiYWRkcmVzc2VzIjp7ImV0aGVyZXVtIjoiMHhmMDU1NWQ0MGRiRkI0ZTNCZjA3MDQ0MjgyQjc4RjJmRTFmNTFFZjcyIiwic29sYW5hIjoiNlpEVk5BYmpZZExEcXo4cGt3VUNHYllaNVV3QlFranB0QzU1Wk5vTFcybVUifSwiZGlzY29yZCI6Imh0dHBzOi8vZGlzY29yZC5nZy9wdERaOGU0aDkzIn0)
-
----
 
 ## License
 

@@ -1,7 +1,7 @@
 import type { INodeProperties } from 'n8n-workflow';
 
 export const filesDescription: INodeProperties[] = [
-		{
+                {
 			"displayName": "Operation",
 			"name": "operation",
 			"type": "options",
@@ -229,7 +229,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Object Id",
+			"displayName": "Object ID",
 			"name": "ObjectId",
 			"required": true,
 			"description": "Object id for single object",
@@ -374,7 +374,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Folder Id",
+			"displayName": "Folder ID",
 			"name": "FolderId",
 			"description": "pass an optional folder id to save file to specific folder",
 			"default": "4ff1e5cc-9835-40d5-bb18-09fdb118db9c",
@@ -434,7 +434,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "File Id",
+			"displayName": "File ID",
 			"name": "FileId",
 			"required": true,
 			"description": "File id for single object",
@@ -471,7 +471,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "File Id",
+			"displayName": "File ID",
 			"name": "FileId",
 			"required": true,
 			"description": "File id for single object",
@@ -508,7 +508,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "File Id",
+			"displayName": "File ID",
 			"name": "FileId",
 			"required": true,
 			"description": "File id for single object",
@@ -551,7 +551,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Folder Id",
+			"displayName": "Folder ID",
 			"name": "FolderId",
 			"type": "string",
 			"default": "0f8ccf21-7267-4268-9167-a1e2c40c84c8",
@@ -576,7 +576,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "Id",
 			"type": "string",
 			"default": "d290f1ee-6c54-4b01-90e6-d701748f0851",
@@ -744,7 +744,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "File Id",
+			"displayName": "File ID",
 			"name": "FileId",
 			"required": true,
 			"description": "File id for single object",
@@ -781,7 +781,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "File Id",
+			"displayName": "File ID",
 			"name": "FileId",
 			"required": true,
 			"description": "File id for single object",
@@ -799,7 +799,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "File Id",
+			"displayName": "File ID",
 			"name": "FileId",
 			"type": "string",
 			"default": "",
@@ -895,7 +895,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Object Id",
+			"displayName": "Object ID",
 			"name": "ObjectId",
 			"type": "string",
 			"default": "",
@@ -1186,7 +1186,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "File Id",
+			"displayName": "File ID",
 			"name": "FileId",
 			"required": true,
 			"description": "File id for single object",
@@ -1204,7 +1204,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Object Id",
+			"displayName": "Object ID",
 			"name": "ObjectId",
 			"required": true,
 			"description": "Object id for single object",
@@ -1241,7 +1241,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "File Id",
+			"displayName": "File ID",
 			"name": "FileId",
 			"required": true,
 			"description": "File id for single object",
@@ -1386,7 +1386,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "Id",
 			"type": "string",
 			"default": "4ff1e5cc-9835-40d5-bb18-09fdb118db9c",
@@ -1480,7 +1480,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Folder Id",
+			"displayName": "Folder ID",
 			"name": "FolderId",
 			"required": true,
 			"description": "Folder id for single object",
@@ -1517,7 +1517,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Folder Id",
+			"displayName": "Folder ID",
 			"name": "FolderId",
 			"required": true,
 			"description": "Folder id for single object",
@@ -1554,7 +1554,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Folder Id",
+			"displayName": "Folder ID",
 			"name": "FolderId",
 			"required": true,
 			"description": "Folder id for single object",
@@ -1622,7 +1622,7 @@ export const filesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "Id",
 			"type": "string",
 			"default": "4ff1e5cc-9835-40d5-bb18-09fdb118db9c",

@@ -2,32 +2,32 @@ import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from '
 import { filesDescription } from './resources/files';
 
 export class XeroFiles implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'xero-files',
-		name: 'N8nDevXeroFiles',
-		icon: { light: 'file:./xero-files.svg', dark: 'file:./xero-files.dark.svg' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'These endpoints are specific to Xero Files API',
-		defaults: { name: 'xero-files' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevXeroFilesApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Xero Files',
+                name: 'N8nDevXeroFiles',
+                icon: { light: 'file:./xero-files.svg', dark: 'file:./xero-files.dark.svg' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'Xero Files API endpoints.',
+                defaults: { name: 'Xero Files' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevXeroFilesApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -43,6 +43,6 @@ export class XeroFiles implements INodeType {
 			"default": ""
 		},
 		...filesDescription
-		],
-	};
+                ],
+        };
 }
